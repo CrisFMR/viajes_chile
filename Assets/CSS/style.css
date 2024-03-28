@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/*GOOGLE FONTS ROBOTO*/
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/* FIN GOOGLE FONTS*/
+
+/* Header */
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:100%;
+    margin-top: 0;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    height: auto;
+}
+
+/*NAVBAR*/
+
+#navbarNav {
+   justify-content: flex-end;
+}
+/*COMANDO PARA DEJAR NAVBAR FIJA*/
+.fixed-top {
+    position: absolute;
+}
+/*REAJUSTE TAMAÑO DE IMAGEN TARJETAS*/
+img.card-img-top.img-responsive {
+    height: 50%;
+}
+
+/*SMOOTH SCROLL*/
+.card-img-top{
+    transition: all 0.8s ease;
+}
+.card-img-top:hover{
+    transition: all 0.6s ease;
+    filter: brightness(30%);
+
+}
+
+/*FORMATO ICONOS RRSS*/
+.d-flex li i {
+    float: right;
+    color: #ffffff;
+    margin-right: 20px;
+}
